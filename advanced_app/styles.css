@@ -1,0 +1,50 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    padding: 10px;
+}
+
+#domainList {
+    text-align: center;
+    width: 50%;
+    border: 1px solid blue;
+    margin-bottom: 25px;
+    line-height: 25px;
+}
+
+/* Esta clase se declara en app.js */
+.item {
+    border: 1px solid red;
+    padding: 2px;
+    transition: transform 200ms, background-color 200ms;
+}
+
+.item:hover {
+    transform: scale(110%);
+    background-color: purple;
+}
+
+/*---------------------------------*/
+
+button {
+    font-size: large;
+    padding: 10px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: background-color 350ms, transform 200ms;
+}
+
+button:hover {
+    background-color: blue;
+    transform: scale(125%);
+}
